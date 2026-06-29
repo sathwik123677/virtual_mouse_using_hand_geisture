@@ -14,9 +14,31 @@ It eliminates the need for a physical mouse, enabling **touchless control** usin
 - [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/)
 
 ---
-
-## ⚙️ Installation
-Clone this repository:
+# 🚀 How to Run the Project
+## 1. Clone the Repository
 ```bash
-git clone https://github.com/your-repo/virtual-mouse.git
-cd virtual-mouse
+git clone <repository-url>
+cd Virtual-Mouse
+```
+> Replace `<repository-url>` with the actual GitHub repository URL.
+---
+## 2. Create a Virtual Environment (Recommended)
+### Windows
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+---
+## 3. Install the Required Dependencies
+```bash
+pip install opencv-python mediapipe numpy pyautogui
+```
+---
+## 4. Run the Project
+Execute the main Python file:
+```bash
+python main.py
+```
+---
+
+Enjoy using the **Virtual Mouse** project! 🎉
